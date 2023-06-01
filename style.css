@@ -60,7 +60,7 @@ button {
     padding: 8px;
     border: none;
     border-radius: 7px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     padding: 10px;
 }
@@ -95,7 +95,7 @@ button:hover {
 .img {
 width: 250px;
 border-radius: 10px;
-border: 3px solid #3882f6;
+border: 3px solid #283c58;
 box-shadow: 2px 2px 5px #05070a;
 }
 .img:hover {
@@ -167,4 +167,12 @@ box-shadow: 2px 2px 5px #05070a;
 #signup:hover {
 color: #3882f6;
 background-color: white;
+}
+
+/* footer */
+.footer {
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+    padding: 15px;
 }
