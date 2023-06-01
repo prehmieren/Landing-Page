@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+}
+/*header*/
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+li {
+    list-style: none;
+    ;
+}
+a {
+    text-decoration: none;
+    color: #f9faf8
+}
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/*section 1*/
+
+.section-1 {
+    background-color: #1f2937;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.hero-text {
+    width: 700px
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 18px;
+    color: #f9faf8;
+    text-align: justify;
+}
+button {
+    color: white;
+    background-color: #3882f6;
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+}
+button:hover {
+    background-color: #2160c2;
+}
+.hero-img {
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #05070a;
+}
+
+/*section 2*/
+
+.section-2 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-des {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+.galerie {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.img {
+width: 250px;
+border-radius: 10px;
+border: 3px solid #3882f6;
+box-shadow: 2px 2px 5px #05070a;
+}
+.img:hover {
+    transform: scale(1.5);
+    transition: .8s;
+}
+.head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 99px;
+}
+/*section 3*/
+.section-3 {
+    background-color: #e5e7eb;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kunde-zitat {
+    color: #1F2937;
+    font-size: 36px;
+    width: 800px;
+    font-style: italic;
+    letter-spacing: .21px;
+}
+.kunde-name {
+    text-align: end;
+    font-size: 18px;
+    color:#1F2937;
+    font-weight: 700;
+}
+/*section 4*/
+.section-4 {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+#bluebox {
+    width: 900px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+}
+#melden-head {
+    font-weight: 900;
+    margin-bottom: -5px;
+}
+
+#signup {
+    color: white;
+    background-color: #3882f6;
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+    border: solid 2px white;
+    
+}
+
+#signup:hover {
+color: #3882f6;
+background-color: white;
+}
